@@ -1,0 +1,141 @@
+body{
+    background-color:burlywood;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav1{
+padding: 3px;
+margin: 3px;
+background-color:papayawhip;
+border: brown solid;
+}
+
+.nav1 ul{
+    list-style:none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav1 li{
+    display:inline;
+}
+.nav1 a{
+text-decoration: none;
+color: #202020;
+padding: 5px 15px;
+position: relative;
+}
+
+.nav1 a::after{
+    content:"";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: brown;
+    transform: scaleX(0);
+    transition:transform 0.3sec ease-in-out;
+}
+.nav1 a:hover::after{
+transform:scaleX(1);
+background-color: brown;
+}
+
+.nav1 button{
+padding:7px;
+border-radius: 3px;
+border: none;
+background-color:papayawhip;
+}
+.nav1 button:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+
+.nav2{
+width:150px;
+padding: 20px;
+background-color:#ffff;
+border: solid saddlebrown 4px;
+}
+.nav2 ul{
+    list-style: none;
+    margin:0px;
+    padding:0px;
+}
+.nav2 li{
+    margin-bottom: 12px;
+}
+.nav2 a{
+    text-decoration: none;
+    margin-bottom: 12px;
+    width: 100%;
+    display:block;
+    text-align: center; 
+    color: black;
+}
+
+.nav2 a:hover{
+    background-color: blanchedalmond;
+    border-radius: 5px;
+}
+
+.nav2 .login-btn{
+    border: none;
+    width: 100%;
+    padding: 4px;
+    background-color:sandybrown;
+    border: none;
+    border-radius: 4px;
+}
+.nav2 .login-btn:hover{
+    background-color: blanchedalmond;
+    cursor: pointer;
+
+}
+
+.nav3{
+    border:solid 2px;
+    background-color: blanchedalmond;
+}
+
+.nav3 ul{
+    padding:none;
+    margin:none;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.nav3 a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.dropdown-content{
+display:none;
+}
+
+.nav3 .dropdown:hover .dropdown-content{
+    display:block;
+    position: absolute;
+    min-width:100px;
+    background-color: blanchedalmond;
+    padding: 5px;
+    border: solid black 1px;
+}
+
+.nav3 .login-btn{
+   background-color: bisque;
+   border:solid black 1px;
+}
+
+.nav3 .login-btn:hover{
+    background-color:burlywood;
+}
+
+

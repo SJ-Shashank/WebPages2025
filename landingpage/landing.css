@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:ital,wght@1,400;1,500;1,600;1,700&family=Oswald:wght@200..700&family=Paytone+One&family=Varela&family=Varela+Round&display=swap');
+
+body,html{
+margin: 0;
+padding: 0;
+font-family: "Oswald", serif;
+height:100%;
+
+}
+.container {
+height: 100%;
+
+background: linear-gradient(135deg, #8a2be2, #4169e1);
+display:flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+}
+.content{
+    height:100%;
+    background: white;
+    display: inline;
+    border-radius: 10px;
+}
+.content img{
+    height:10rem;
+    margin-bottom: 30px;
+}
+.logo2{
+    display:inline-block;  
+}
+h2{
+    margin:10px 20px;
+}
+
+
+form{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    width:100%;
+}
+input{
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    border-color:#1a1a1a;
+    width: 70%;
+    color: black;
+}
+button{
+    padding: 5px;
+}
+.btn{
+    padding:10px;
+    border-radius: 5px;
+    border:solid black 1px;
+    background-color:snow;
+    margin-bottom: 5px;
+    width:30%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    background-color: #8a2be2;
+    color: white;
+}
